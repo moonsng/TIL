@@ -2,7 +2,9 @@
 
 map함수 
 
-```var devi = [op_dnn_deviation.series[0].data.map(x => x.value)];```
+```
+var devi = [op_dnn_deviation.series[0].data.map(x => x.value)];
+```
 
 ## 20220408
 
