@@ -15,9 +15,9 @@ var y = document.getElementById("SelectBoxid").options;
 
 var idx = y[x].index;
 
-console.log("선택한 index : " + idx); ```
+console.log("선택한 index : " + idx); 
 
-
+```
 2. 제이쿼리를 이용한 방법
 
 ```var idx = $("#SelectBoxId option").index( $("#SelectBoxId option:selected") );
